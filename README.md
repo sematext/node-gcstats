@@ -1,5 +1,12 @@
+# Note!
+This is a fork of [dainis/node-gcstats](https://github.com/dainis/node-gcstats). I did not write the code nor claim I have. I'm only maintaining the dependencies that are required for my own open-source projects. Repos I maintain that need gc-stats to work:
+
+- https://github.com/sematext/sematext-agent-express
+- https://github.com/sematext/spm-agent-nodejs
+- https://github.com/sematext/spm-agent
+
 # GCStats
-[![Build Status](https://travis-ci.org/dainis/node-gcstats.svg?branch=master)](https://travis-ci.org/dainis/node-gcstats) [![Build status](https://ci.appveyor.com/api/projects/status/oeu171tgxbsac88q/branch/master?svg=true)](https://ci.appveyor.com/project/dainis/node-gcstats/branch/master)
+[![Build Status](https://travis-ci.org/adnanrahic/node-gcstats.svg?branch=master)](https://travis-ci.org/dainis/node-gcstats)
 
 Exposes stats about V8 GC after it has been executed.
 
