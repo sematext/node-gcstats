@@ -15,11 +15,12 @@
     "prepublish": "npm ls",
     "build": "node-pre-gyp build",
     "pretest": "npm run build",
-    "clean": "node-pre-gyp clean"
+    "clean": "node-pre-gyp clean",
+    "configure": "node-pre-gyp configure"
   },
   "dependencies": {
-    "nan": "^2.13.2",
-    "node-pre-gyp": "^0.14.0"
+    "nan": "^2.14.2",
+    "node-pre-gyp": "^0.15.0"
   },
   "gypfile": true,
   "devDependencies": {
