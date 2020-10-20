@@ -16,7 +16,8 @@
     "build": "node-pre-gyp build",
     "pretest": "npm run build",
     "clean": "node-pre-gyp clean",
-    "configure": "node-pre-gyp configure"
+    "configure": "node-pre-gyp configure",
+    "release": "release-it"
   },
   "dependencies": {
     "nan": "^2.14.2",
