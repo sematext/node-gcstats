@@ -5,16 +5,20 @@ This is a fork of [dainis/node-gcstats](https://github.com/dainis/node-gcstats).
 - https://github.com/sematext/spm-agent-nodejs
 - https://github.com/sematext/spm-agent
 
-# GCStats
-[![Build Status](https://travis-ci.org/adnanrahic/node-gcstats.svg?branch=master)](https://travis-ci.org/dainis/node-gcstats)
+To install this package run:
+```bash
+npm install @sematext/gc-stats
+```
 
+# GCStats
+[![Build Status](https://travis-ci.com/adnanrahic/node-gcstats.svg?branch=master)](https://travis-ci.com/adnanrahic/node-gcstats)
 Exposes stats about V8 GC after it has been executed.
 
 # Usage
 
 Create a new instance of the module and subscribe to `stats`-events from that:
 
-    var gc = (require('gc-stats'))();
+    var gc = (require('@sematext/gc-stats'))();
 
     gc.on('stats', function (stats) {
         console.log('GC happened', stats);
