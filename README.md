@@ -10,10 +10,6 @@ To install this package run:
 npm install @sematext/gc-stats
 ```
 
-# GCStats
-[![Build Status](https://travis-ci.com/adnanrahic/node-gcstats.svg?branch=master)](https://travis-ci.com/adnanrahic/node-gcstats)
-Exposes stats about V8 GC after it has been executed.
-
 # Usage
 
 Create a new instance of the module and subscribe to `stats`-events from that:
@@ -91,4 +87,4 @@ This will print blobs like this whenever a GC happened:
     npm install gc-stats
 
 # Node version support
-node-gcstats depends on C++ extensions which are compiled when the *gc-stats* module is installed. Compatibility information can be inspected via the [Travis-CI build jobs](https://travis-ci.org/dainis/node-gcstats/).
+node-gcstats depends on C++ extensions which are compiled when the *gc-stats* module is installed. Prebuilt binaries are available on github.
