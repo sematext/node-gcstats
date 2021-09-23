@@ -10,7 +10,7 @@
   },
   "scripts": {
     "install": "node-pre-gyp install --fallback-to-build",
-    "test": "mocha --expose-gc tests",
+    "test": "npx --node-arg --expose-gc mocha",
     "example": "node --expose-gc example.js",
     "build": "node-pre-gyp build",
     "pretest": "npm run build",
@@ -19,15 +19,15 @@
     "release": "release-it"
   },
   "dependencies": {
-    "nan": "^2.14.2",
-    "node-pre-gyp": "^0.15.0"
+    "@mapbox/node-pre-gyp": "^1.0.5",
+    "nan": "^2.15.0"
   },
   "gypfile": true,
   "devDependencies": {
-    "aws-sdk": "^2.449.0",
-    "mocha": "^6.2.3",
-    "release-it": "^14.2.0",
-    "semver": "^5.7.0",
+    "aws-sdk": "^2.985.0",
+    "mocha": "^9.1.1",
+    "release-it": "^14.11.5",
+    "semver": "^7.3.5",
     "should": "^13.2.3"
   },
   "bundledDependencies": [
