@@ -1,3 +1,5 @@
+require('expose-gc');
+
 var GCStats = require('../'),
 	should = require('should'),
 	semver = require('semver'),
