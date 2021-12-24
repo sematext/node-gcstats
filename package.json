@@ -1,6 +1,6 @@
 {
   "name": "@sematext/gc-stats",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "description": "Exposes node v8 garbage collection stats",
   "main": "index.js",
   "repository": "git@github.com:adnanrahic/node-gcstats.git",
