@@ -27,7 +27,7 @@
     "aws-sdk": "^2.1241.0",
     "expose-gc": "^1.0.0",
     "mocha": "^9.2.2",
-    "release-it": "^14.14.3",
+    "release-it": "^15.5.0",
     "semver": "^7.3.8",
     "should": "^13.2.3"
   },
