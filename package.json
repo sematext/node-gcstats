@@ -19,16 +19,16 @@
     "release": "release-it"
   },
   "dependencies": {
-    "@mapbox/node-pre-gyp": "^1.0.8",
-    "nan": "^2.15.0"
+    "@mapbox/node-pre-gyp": "^1.0.10",
+    "nan": "^2.17.0"
   },
   "gypfile": true,
   "devDependencies": {
-    "aws-sdk": "^2.1048.0",
+    "aws-sdk": "^2.1241.0",
     "expose-gc": "^1.0.0",
-    "mocha": "^9.2.0",
-    "release-it": "^14.12.4",
-    "semver": "^7.3.5",
+    "mocha": "^9.2.2",
+    "release-it": "^14.14.3",
+    "semver": "^7.3.8",
     "should": "^13.2.3"
   },
   "binary": {
