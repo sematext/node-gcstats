@@ -34,9 +34,9 @@
   "binary": {
     "module_name": "gcstats",
     "module_path": "./build/{module_name}/v{version}/{configuration}/{node_abi}-{platform}-{arch}-{libc}",
-    "remote_path": "./{module_name}/v{version}/{configuration}/",
-    "package_name": "{node_abi}-{platform}-{arch}-{libc}.tar.gz",
-    "host": "https://github.com/adnanrahic/node-gcstats/releases/download/{version}"
+    "remote_path": "./",
+    "package_name": "{version}.tar.gz",
+    "host": "https://github.com/adnanrahic/node-gcstats/archive/refs/tags/"
   },
   "release-it": {
     "github": {
